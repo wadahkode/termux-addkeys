@@ -13,6 +13,10 @@ key="extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT',
 # buka properties
 prop="$HOME/.termux/termux.properties"
 
+[[ -d $HOME/.termux ]] || {
+  mkdir $HOME/.termux
+}
+
 if [[ -f $prop ]]; then
   rm $prop
   echo "${key}" >> $prop
