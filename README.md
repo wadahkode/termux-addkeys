@@ -2,7 +2,7 @@
 
 ![Screenshoot](screenshoot.jpg)
 
-Menampillkan semua tombol dari keyboard
+Tombol tambahan untuk termux
 
 # Cara instalasi
 	$ apt install git
